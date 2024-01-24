@@ -7,9 +7,7 @@ public class Error {
     private  String message;
 
     public Error() {
-        active = true;
-        status = 2;
-        message = "Dangerous";
+
     }
 
     public Error(boolean active, int status, String message) {
